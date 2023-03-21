@@ -41,7 +41,7 @@
     <!-- NavBar -->
     <header id="title">
         <div class="container-fluid">
-            <nav id="barra" class="navbar-expand-lg navbar navbar-brand">
+            <nav id="barra" class="navbar-expand-lg navbar navbar-brand fixed-top">
                 <a class="navbar-link navbar-brand" href="http://127.0.0.1:5500/LND-Doramas-UT4/Index.html"
                     id="NombreGym">Gimnasio Bahía</a>
                 <a class="navbar-link navbar-brand" href="http://127.0.0.1:5500/LND-Doramas-UT4/Index.html">
@@ -57,10 +57,10 @@
                                     class="fa-solid fa-dumbbell IconoEnlaces"></i>Planes</a></li>
                         <li class="nav-item"><a href="https://google.com" class="nav-link"><i
                                     class="fa-solid fa-phone IconoEnlaces"></i>Contacto</a></li>
-                        <li class="nav-item"><a href="https://google.com" class="nav-link"><i
+                        <li class="nav-item"><a href="#Características" class="nav-link"><i
                                     class="fa-solid fa-person IconoEnlaces"></i>Sobre Nosotros</a></li>
-                        <li class="nav-item"><a href="https://google.com" class="nav-link"><i
-                                    class="fa-solid fa-bottle-water IconoEnlaces"></i>Suplementos</a></li>
+                        <li class="nav-item"><a href="#SectionMapa" class="nav-link"><i
+                                    class="fa-solid fa-location-dot IconoEnlaces"></i>Donde Estamos</a></li>
                     </ul>
                 </div>
             </nav>
@@ -71,8 +71,8 @@
         <h2 class="text-center" id="CabeceraCaracterísticas">¿Por qué elegirnos a nosotros?</h2>
         <div class="row" id="Cartas">
             <!-- Primera carta -->
-            <div class="col-lg-4 col-md-6 col-sm-12" id="Carta1">
-                <div class="card" style="width: 18rem;">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card SombraCartas" style="width: 18rem;">
                     <img src="/LND-Doramas-UT4/Images/SociosGym.jpg" class="card-img-top" alt="SociosGym" id="ImgCard1">
                     <div class="card-body text-center">
                         <p class="card-text">Somos el gimnasio lider en todo el Archipiélago Canario, siendo el gimnasio
@@ -82,7 +82,7 @@
             </div>
             <!-- Segunda carta -->
             <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="card" style="width: 18rem;">
+                <div class="card SombraCartas" style="width: 18rem;">
                     <img src="/LND-Doramas-UT4/Images/InstalacionesGym.jpg" class="card-img-top" alt="InstalacionesGym"
                         id="ImgCard2">
                     <div class="card-body text-center">
@@ -93,7 +93,7 @@
             </div>
             <!-- Tercera carta -->
             <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="card" style="width: 18rem;">
+                <div class="card SombraCartas" style="width: 18rem;">
                     <img src="/LND-Doramas-UT4/Images/MonitorGym.jpg" class="card-img-top" alt="MonitorGym"
                         id="ImgCard3">
                     <div class="card-body text-center">
@@ -108,27 +108,30 @@
     <!-- Carrusel que muestra las instalaciones del Gym -->
     <section id="Carrusel">
         <h2 class="text-center" id="CabeceraCarrusel">Nuestras Instalaciones</h2>
-        <div id="carouselExampleCaptions" class="carousel slide">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active">
+                <div class="carousel-item active" data-bs-interval="4000">
                     <h4 class="text-center">Piscina Climatizada</h4>
                     <img src="/LND-Doramas-UT4/Images/PiscinaGym.jpg" class="d-block w-50 ImgCarrusel" alt="PiscinaGym">
                     <div class="carousel-caption d-none d-md-block">
                         <p class="SubtitulosCarrusel">Perfecta para ejercicios acuáticos o relajación post-entreno.</p>
                     </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-bs-interval="4000">
                     <h4 class="text-center">Sala de Spinning</h4>
-                    <img src="/LND-Doramas-UT4/Images/SalaSpinning.jpg" class="d-block w-50 ImgCarrusel" alt="SalaSpinning">
+                    <img src="/LND-Doramas-UT4/Images/SalaSpinning.jpg" class="d-block w-50 ImgCarrusel"
+                        alt="SalaSpinning">
                     <div class="carousel-caption d-none d-md-block">
                         <p class="SubtitulosCarrusel">Con una ventilación e iluminación óptimas para su disfrute.</p>
                     </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-bs-interval="4000">
                     <h4 class="text-center">Sala de Crossfit</h4>
-                    <img src="/LND-Doramas-UT4/Images/SalaCrossfit.jpg" class="d-block w-50 ImgCarrusel" alt="SalaCrossfit">
+                    <img src="/LND-Doramas-UT4/Images/SalaCrossfit.jpg" class="d-block w-50 ImgCarrusel"
+                        alt="SalaCrossfit">
                     <div class="carousel-caption d-none d-md-block">
-                        <p class="SubtitulosCarrusel">Con todo tipo de maquinaria y materiales para cualquier tipo de ejercicio.</p>
+                        <p class="SubtitulosCarrusel">Con todo tipo de maquinaria y materiales para cualquier tipo de
+                            ejercicio.</p>
                     </div>
                 </div>
             </div>
@@ -142,6 +145,119 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
+        </div>
+    </section>
+    <!-- Mapa de Google Maps -->
+    <section id="SectionMapa">
+        <h2 id="CabeceraMapa" class="text-center">¿No sabes como llegar?<i id="SimboloMapa"
+                class="fa-solid fa-map-location-dot fa-beat-fade fa-lg"></i></h2>
+        <iframe id="Mapa"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3509.2712416197846!2d-16.56048368496879!3d28.411071282505773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc6a7fea800c8a3b%3A0x34b66d30eb237fb4!2sGimnasio%20Bah%C3%ADa!5e0!3m2!1ses!2ses!4v1679422296789!5m2!1ses!2ses"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <!-- Planes -->
+    <section id="Planes">
+        <h2 id="CabeceraPlanes" class="text-center">Planes disponibles</h2>
+        <p id="TextoPlanes" class="text-center">Tenemos una gran variedad de planes para ti.</p>
+
+        <div class="row container-fluid">
+
+            <!-- Plan 1 -->
+            <div class="card col-lg-2 col-md-4 col-sm-12" style="width: 18rem;">
+                <img src="/Images/InstalacionesGym.jpg" class="card-img-top" alt="...">
+                <div class="card-body FondoPlanes">
+                    <h5 class="card-title">Pack Básico</h5>
+                    <p class="card-text TextoCartasPlanes">Uso de la maquinaria y de los vestuarios (duchas no
+                        incluidas).</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">15€/mes</li>
+                </ul>
+                <div class="card-body FondoPlanes">
+                    <a href="#" class="btn btn-primary BotonPlanes" id="BotonPlan1">Me interesa</a>
+                </div>
+            </div>
+
+            <!-- Plan 2 -->
+            <div class="card col-lg-2 col-md-4 col-sm-12" style="width: 18rem;">
+                <img src="/Images/InstalacionesGym.jpg" class="card-img-top" alt="...">
+                <div class="card-body FondoPlanes">
+                    <h5 class="card-title">Pack Ducha</h5>
+                    <p class="card-text TextoCartasPlanes">Uso de la maquinaria, vestuarios y de las duchas.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">20€/mes</li>
+                </ul>
+                <div class="card-body FondoPlanes">
+                    <a href="#" class="btn btn-primary BotonPlanes" id="BotonPlan2">Me interesa</a>
+                </div>
+            </div>
+
+            <!-- Plan 3 -->
+            <div class="card col-lg-2 col-md-4 col-sm-12" style="width: 18rem;">
+                <img src="/Images/InstalacionesGym.jpg" class="card-img-top" alt="...">
+                <div class="card-body FondoPlanes">
+                    <h5 class="card-title">Pack Spinning</h5>
+                    <p class="card-text TextoCartasPlanes">Uso de maquinaria, vestuarios, duchas y de la sala de
+                        Spinning.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">30€/mes</li>
+                </ul>
+                <div class="card-body FondoPlanes">
+                    <a href="#" class="btn btn-primary BotonPlanes" id="BotonPlan3">Me interesa</a>
+                </div>
+            </div>
+
+            <!-- Plan 4 -->
+            <div class="card col-lg-2 col-md-4 col-sm-12" style="width: 18rem;">
+                <img src="/Images/InstalacionesGym.jpg" class="card-img-top" alt="...">
+                <div class="card-body FondoPlanes">
+                    <h5 class="card-title">Pack Crossfit</h5>
+                    <p class="card-text TextoCartasPlanes">Uso de maquinaria, vestuarios, duchas y de la sala de
+                        Crossfit.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">30€/mes</li>
+                </ul>
+                <div class="card-body FondoPlanes">
+                    <a href="#" class="btn btn-primary BotonPlanes" id="BotonPlan4">Me interesa</a>
+                </div>
+            </div>
+
+            <!-- Plan 5 -->
+            <div class="card col-lg-2 col-md-4 col-sm-12" style="width: 18rem;">
+                <img src="/Images/InstalacionesGym.jpg" class="card-img-top" alt="...">
+                <div class="card-body FondoPlanes">
+                    <h5 class="card-title">Pack Spinning y Crossfit</h5>
+                    <p class="card-text TextoCartasPlanes">Uso de maquinaria, vestuarios, duchas y de la sala de
+                        Spinning y sala de Crossfit.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">35€/mes</li>
+                </ul>
+                <div class="card-body FondoPlanes">
+                    <a href="#" class="btn btn-primary BotonPlanes" id="BotonPlan5">Me interesa</a>
+                </div>
+            </div>
+
+            <!-- Plan 6 -->
+            <div class="card col-lg-2 col-md-4 col-sm-12" style="width: 18rem;">
+                <img src="/Images/InstalacionesGym.jpg" class="card-img-top" alt="...">
+                <div class="card-body FondoPlanes">
+                    <h5 class="card-title">Pack Completo</h5>
+                    <p class="card-text TextoCartasPlanes">Incluye todos los servicios anteriores además del uso de la
+                        piscina.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">40€/mes</li>
+                </ul>
+                <div class="card-body FondoPlanes">
+                    <a href="#" class="btn btn-primary BotonPlanes" id="BotonPlan6">Me interesa</a>
+                </div>
+            </div>
         </div>
     </section>
 

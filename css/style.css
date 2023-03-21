@@ -7,8 +7,14 @@ header{
     width: 80px;
 }
 
+#barra{
+    background-color: #2E4F4F;
+    width: 100%;
+}
+
 #NombreGym{
     font-family: Sono, sans-serif;
+    padding-left: 1%;
 }
 
 #Enlaces{
@@ -24,7 +30,7 @@ header{
 }
 
 #Características{
-    padding-top: 4%;
+    padding-top: 6%;
     padding-bottom: 4%;
     background-color: #0E8388;
     align-items: center;
@@ -32,11 +38,16 @@ header{
 
 #CabeceraCaracterísticas{
     padding-bottom: 2%;
+    font-family: Ubuntu, sans-serif;
 }
 
 #Cartas{
     padding-right: 10%;
     padding-left: 15%;
+}
+
+.SombraCartas{
+    box-shadow: 10px 10px 1px black;
 }
 
 #ImgCard1{
@@ -57,16 +68,23 @@ header{
 
 .card-text{
     color: white;
+    font-family: Ubuntu, sans-serif;
 }
 
 #Carrusel{
     background-color: #CBE4DE;
     padding-top: 2%;
     text-align: center;
+    padding-bottom: 2%;
 }
 
 #CabeceraCarrusel{
     padding-bottom: 2%;
+    font-family: Ubuntu, sans-serif;
+}
+
+h4{
+    font-family: Ubuntu, sans-serif;
 }
 
 .ImgCarrusel{
@@ -77,4 +95,90 @@ header{
 .SubtitulosCarrusel{
     background-color: black;
     opacity: 50%;
+}
+
+#SectionMapa{
+    background-color: #0E8388;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#CabeceraMapa{
+    font-family: Ubuntu, sans-serif;
+    padding-bottom: 2%;
+}
+
+#SimboloMapa{
+    color: #2C3333;
+    padding-left: 10px;
+}
+
+#Mapa{
+    display: block;
+    margin: 0 auto;
+}
+
+#Planes{
+    background-color: #2C3333;
+    padding-top: 2%;
+}
+
+#CabeceraPlanes{
+    font-family: Ubuntu, sans-serif;
+    color: white;
+}
+
+#TextoPlanes{
+    font-family: Ubuntu, sans-serif;
+    color: white;
+    padding-bottom: 2%;
+}
+
+.FondoPlanes{
+    background-color: white;
+}
+
+.TextoCartasPlanes{
+    font-family: Ubuntu, sans-serif;
+    color: black;
+}
+
+.BotonPlanes{
+    box-shadow: 0 0 5px #0E8388, 0 0 25px #0E8388;
+}
+
+.BotonPlanes:hover{
+    box-shadow: 0 0 5px #0E8388,
+    0 0 25px #0E8388, 0 0 50px #0E8388,
+    0 0 75px #0E8388;
+}
+
+#BotonPlan1{
+    background-color: #0E8388;
+    border-color: #0E8388;
+}
+
+#BotonPlan2{
+    background-color: #0E8388;
+    border-color: #0E8388;
+}
+
+#BotonPlan3{
+    background-color: #0E8388;
+    border-color: #0E8388;
+}
+
+#BotonPlan4{
+    background-color: #0E8388;
+    border-color: #0E8388;
+}
+
+#BotonPlan5{
+    background-color: #0E8388;
+    border-color: #0E8388;
+}
+
+#BotonPlan6{
+    background-color: #0E8388;
+    border-color: #0E8388;
 }
