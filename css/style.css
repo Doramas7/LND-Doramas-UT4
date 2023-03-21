@@ -38,3 +38,43 @@ header{
     padding-right: 10%;
     padding-left: 15%;
 }
+
+#ImgCard1{
+    height: 213px;
+}
+
+#ImgCard2{
+    height: 213px;
+}
+
+#ImgCard3{
+    height: 213px;
+}
+
+.card-body{
+    background-color: #2C3333;
+}
+
+.card-text{
+    color: white;
+}
+
+#Carrusel{
+    background-color: #CBE4DE;
+    padding-top: 2%;
+    text-align: center;
+}
+
+#CabeceraCarrusel{
+    padding-bottom: 2%;
+}
+
+.ImgCarrusel{
+    margin-left: 400px;
+    height: 432px;
+}
+
+.SubtitulosCarrusel{
+    background-color: black;
+    opacity: 50%;
+}

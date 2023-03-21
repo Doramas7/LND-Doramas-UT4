@@ -33,11 +33,15 @@
 </head>
 
 <body>
+    <!-- Codigo Java de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 
     <!-- NavBar -->
     <header id="title">
         <div class="container-fluid">
-            <nav id="barra" class="navbar-expand-sm navbar navbar-brand">
+            <nav id="barra" class="navbar-expand-lg navbar navbar-brand">
                 <a class="navbar-link navbar-brand" href="http://127.0.0.1:5500/LND-Doramas-UT4/Index.html"
                     id="NombreGym">Gimnasio Bahía</a>
                 <a class="navbar-link navbar-brand" href="http://127.0.0.1:5500/LND-Doramas-UT4/Index.html">
@@ -69,7 +73,7 @@
             <!-- Primera carta -->
             <div class="col-lg-4 col-md-6 col-sm-12" id="Carta1">
                 <div class="card" style="width: 18rem;">
-                    <img src="/LND-Doramas-UT4/Images/SociosGym.jpg" class="card-img-top" alt="SociosGym">
+                    <img src="/LND-Doramas-UT4/Images/SociosGym.jpg" class="card-img-top" alt="SociosGym" id="ImgCard1">
                     <div class="card-body text-center">
                         <p class="card-text">Somos el gimnasio lider en todo el Archipiélago Canario, siendo el gimnasio
                             con el mayor número de socios.</p>
@@ -79,24 +83,67 @@
             <!-- Segunda carta -->
             <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="card" style="width: 18rem;">
-                    <img src="/LND-Doramas-UT4/Images/InstalacionesGym.jpg" class="card-img-top" alt="InstalacionesGym">
+                    <img src="/LND-Doramas-UT4/Images/InstalacionesGym.jpg" class="card-img-top" alt="InstalacionesGym"
+                        id="ImgCard2">
                     <div class="card-body text-center">
-                        <p class="card-text"> Contamos con instalaciones profesionales, además de una maquinaria de calidad y una piscina aclimatizada.</p>
+                        <p class="card-text"> Contamos con instalaciones profesionales, además de una maquinaria de
+                            calidad y una piscina aclimatizada.</p>
                     </div>
                 </div>
             </div>
             <!-- Tercera carta -->
             <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="card" style="width: 18rem;">
-                    <img src="/LND-Doramas-UT4/Images/MonitorGym.jpg" class="card-img-top" alt="MonitorGym">
+                    <img src="/LND-Doramas-UT4/Images/MonitorGym.jpg" class="card-img-top" alt="MonitorGym"
+                        id="ImgCard3">
                     <div class="card-body text-center">
-                        <p class="card-text">Disponemos de un personal profesional y altamente cualificado para garantizar un entrenamineto óptimo.</p>
+                        <p class="card-text">Disponemos de un personal profesional y altamente cualificado para
+                            garantizar un entrenamiento óptimo.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Carrusel que muestra las instalaciones del Gym -->
+    <section id="Carrusel">
+        <h2 class="text-center" id="CabeceraCarrusel">Nuestras Instalaciones</h2>
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h4 class="text-center">Piscina Climatizada</h4>
+                    <img src="/LND-Doramas-UT4/Images/PiscinaGym.jpg" class="d-block w-50 ImgCarrusel" alt="PiscinaGym">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p class="SubtitulosCarrusel">Perfecta para ejercicios acuáticos o relajación post-entreno.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <h4 class="text-center">Sala de Spinning</h4>
+                    <img src="/LND-Doramas-UT4/Images/SalaSpinning.jpg" class="d-block w-50 ImgCarrusel" alt="SalaSpinning">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p class="SubtitulosCarrusel">Con una ventilación e iluminación óptimas para su disfrute.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <h4 class="text-center">Sala de Crossfit</h4>
+                    <img src="/LND-Doramas-UT4/Images/SalaCrossfit.jpg" class="d-block w-50 ImgCarrusel" alt="SalaCrossfit">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p class="SubtitulosCarrusel">Con todo tipo de maquinaria y materiales para cualquier tipo de ejercicio.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
 
 </body>
 
