@@ -27,6 +27,7 @@ header{
 
 .IconoEnlaces:hover{
     color: #0E8388;
+    transform: rotate(-25deg);
 }
 
 #Características{
@@ -37,6 +38,7 @@ header{
 }
 
 #CabeceraCaracterísticas{
+    padding-top: 2%;
     padding-bottom: 2%;
     font-family: Ubuntu, sans-serif;
 }
@@ -93,8 +95,9 @@ h4{
 }
 
 .SubtitulosCarrusel{
-    background-color: black;
-    opacity: 50%;
+    background-color: #CBE4DE;
+    color: black;
+    opacity: 80%;
 }
 
 #SectionMapa{
@@ -138,6 +141,11 @@ h4{
     background-color: white;
 }
 
+.TituloPlanes{
+    font-family: Ubuntu, sans-serif;
+    font-weight: 800;
+}
+
 .TextoCartasPlanes{
     font-family: Ubuntu, sans-serif;
     color: black;
@@ -173,12 +181,6 @@ h4{
     border-color: #0E8388;
 }
 
-#BotonPlan5{
-    background-color: #0E8388;
-    border-color: #0E8388;
-}
-
-#BotonPlan6{
-    background-color: #0E8388;
-    border-color: #0E8388;
+.ImgPlanes{
+    height: 200px;
 }
