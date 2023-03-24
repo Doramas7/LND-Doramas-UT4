@@ -1,186 +1,212 @@
-header{
+header {
     background-color: #2E4F4F;
 }
 
-#LogoGym{
+#LogoGym {
     height: 80px;
     width: 80px;
 }
 
-#barra{
+#barra {
     background-color: #2E4F4F;
     width: 100%;
 }
 
-#NombreGym{
+#NombreGym {
     font-family: Sono, sans-serif;
     padding-left: 1%;
 }
 
-#Enlaces{
+#Enlaces {
     font-family: Ubuntu, sans-serif;
 }
 
-.IconoEnlaces{
+.IconoEnlaces {
     margin-right: 10px;
 }
 
-.IconoEnlaces:hover{
+.IconoEnlaces:hover {
     color: #0E8388;
     transform: rotate(-25deg);
+
 }
 
-#Características{
+#Características {
     padding-top: 6%;
     padding-bottom: 4%;
     background-color: #0E8388;
     align-items: center;
 }
 
-#CabeceraCaracterísticas{
+#CabeceraCaracterísticas {
     padding-top: 2%;
     padding-bottom: 2%;
     font-family: Ubuntu, sans-serif;
 }
 
-#Cartas{
+#Cartas {
     padding-right: 10%;
     padding-left: 15%;
 }
 
-.SombraCartas{
+.SombraCartas {
     box-shadow: 10px 10px 1px black;
 }
 
-#ImgCard1{
+#ImgCard1 {
     height: 213px;
 }
 
-#ImgCard2{
+#ImgCard2 {
     height: 213px;
 }
 
-#ImgCard3{
+#ImgCard3 {
     height: 213px;
 }
 
-.card-body{
+.card-body {
     background-color: #2C3333;
 }
 
-.card-text{
+.card-text {
     color: white;
     font-family: Ubuntu, sans-serif;
 }
 
-#Carrusel{
+#Carrusel {
     background-color: #CBE4DE;
     padding-top: 2%;
     text-align: center;
     padding-bottom: 2%;
 }
 
-#CabeceraCarrusel{
+#CabeceraCarrusel {
     padding-bottom: 2%;
     font-family: Ubuntu, sans-serif;
 }
 
-h4{
+h4 {
     font-family: Ubuntu, sans-serif;
 }
 
-.ImgCarrusel{
-    margin-left: 400px;
+.ImgCarrusel {
     height: 432px;
 }
 
-.SubtitulosCarrusel{
+.SubtitulosCarrusel {
     background-color: #CBE4DE;
     color: black;
     opacity: 80%;
 }
 
-#SectionMapa{
+#SectionMapa {
     background-color: #0E8388;
     padding-top: 2%;
     padding-bottom: 2%;
 }
 
-#CabeceraMapa{
+#CabeceraMapa {
     font-family: Ubuntu, sans-serif;
     padding-bottom: 2%;
 }
 
-#SimboloMapa{
+#SimboloMapa {
     color: #2C3333;
     padding-left: 10px;
 }
 
-#Mapa{
+#Mapa {
     display: block;
     margin: 0 auto;
 }
 
-#Planes{
+#Planes {
     background-color: #2C3333;
     padding-top: 2%;
+    padding-bottom: 2%;
 }
 
-#CabeceraPlanes{
+#CabeceraPlanes {
     font-family: Ubuntu, sans-serif;
     color: white;
 }
 
-#TextoPlanes{
+#TextoPlanes {
     font-family: Ubuntu, sans-serif;
     color: white;
     padding-bottom: 2%;
 }
 
-.FondoPlanes{
+#Planes2 {
+    padding-left: 6%;
+    padding-right: 5%;
+}
+
+.FondoPlanes {
     background-color: white;
 }
 
-.TituloPlanes{
+.TituloPlanes {
     font-family: Ubuntu, sans-serif;
     font-weight: 800;
 }
 
-.TextoCartasPlanes{
+.TextoCartasPlanes {
     font-family: Ubuntu, sans-serif;
     color: black;
 }
 
-.BotonPlanes{
+.BotonPlanes {
     box-shadow: 0 0 5px #0E8388, 0 0 25px #0E8388;
 }
 
-.BotonPlanes:hover{
+.BotonPlanes:hover {
     box-shadow: 0 0 5px #0E8388,
-    0 0 25px #0E8388, 0 0 50px #0E8388,
-    0 0 75px #0E8388;
+        0 0 25px #0E8388, 0 0 50px #0E8388,
+        0 0 75px #0E8388;
 }
 
-#BotonPlan1{
+#BotonPlan1 {
     background-color: #0E8388;
     border-color: #0E8388;
 }
 
-#BotonPlan2{
+#BotonPlan2 {
     background-color: #0E8388;
     border-color: #0E8388;
 }
 
-#BotonPlan3{
+#BotonPlan3 {
     background-color: #0E8388;
     border-color: #0E8388;
 }
 
-#BotonPlan4{
+#BotonPlan4 {
     background-color: #0E8388;
     border-color: #0E8388;
 }
 
-.ImgPlanes{
+.ImgPlanes {
     height: 200px;
+}
+
+footer {
+    background-color: #2E4F4F;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.TextoRRSS {
+    font-family: Ubuntu, sans-serif;
+}
+
+.iconoredes {
+    padding-left: 13px;
+    padding-right: 13px;
+    color: #0E8388;
+}
+
+.iconoredes:hover {
+    color: #2C3333;
 }
