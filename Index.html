@@ -51,11 +51,18 @@
                         class="navbar-toggler-icon"></span></button>
                 <div id="caja" class="collapse navbar-collapse">
 
+                    <!-- Barra de búsqueda -->
+                    <form class="d-flex" role="search" id="BarraBusqueda">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit" id="BotonBusqueda">Buscar</button>
+                    </form>
+
+
                     <!-- Enlaces del menú hamburguesa -->
                     <ul class="navbar-nav ms-auto" id="Enlaces">
                         <li class="nav-item"><a href="#Planes" class="nav-link"><i
                                     class="fa-solid fa-dumbbell IconoEnlaces"></i>Planes</a></li>
-                        <li class="nav-item"><a href="https://google.com" class="nav-link"><i
+                        <li class="nav-item"><a href="#Footer" class="nav-link"><i
                                     class="fa-solid fa-phone IconoEnlaces"></i>Contacto</a></li>
                         <li class="nav-item"><a href="#Características" class="nav-link"><i
                                     class="fa-solid fa-person IconoEnlaces"></i>Sobre Nosotros</a></li>
@@ -151,8 +158,8 @@
         <h2 id="CabeceraMapa" class="text-center">¿No sabes como llegar?<i id="SimboloMapa"
                 class="fa-solid fa-map-location-dot fa-beat-fade fa-lg"></i></h2>
         <iframe id="Mapa"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3509.2712416197846!2d-16.56048368496879!3d28.411071282505773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc6a7fea800c8a3b%3A0x34b66d30eb237fb4!2sGimnasio%20Bah%C3%ADa!5e0!3m2!1ses!2ses!4v1679422296789!5m2!1ses!2ses"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3509.271085291876!2d-16.560483684953546!3d28.411076000820188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc6a7fea800c8a3b%3A0x34b66d30eb237fb4!2sGimnasio%20Bah%C3%ADa!5e0!3m2!1ses!2ses!4v1680005285779!5m2!1ses!2ses"
+            width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
 
@@ -175,7 +182,7 @@
                     <li class="list-group-item">15€/mes</li>
                 </ul>
                 <div class="card-body FondoPlanes">
-                    <a href="#" class="btn btn-primary BotonPlanes" id="BotonPlan1">Me interesa</a>
+                    <a href="#Planes" class="btn btn-primary BotonPlanes" id="BotonPlan1">Me interesa</a>
                 </div>
             </div>
 
@@ -192,7 +199,7 @@
                     <li class="list-group-item">25€/mes</li>
                 </ul>
                 <div class="card-body FondoPlanes">
-                    <a href="#" class="btn btn-primary BotonPlanes" id="BotonPlan2">Me interesa</a>
+                    <a href="#Planes" class="btn btn-primary BotonPlanes" id="BotonPlan2">Me interesa</a>
                 </div>
             </div>
 
@@ -209,7 +216,7 @@
                     <li class="list-group-item">25€/mes</li>
                 </ul>
                 <div class="card-body FondoPlanes">
-                    <a href="#" class="btn btn-primary BotonPlanes" id="BotonPlan3">Me interesa</a>
+                    <a href="#Planes" class="btn btn-primary BotonPlanes" id="BotonPlan3">Me interesa</a>
                 </div>
             </div>
 
@@ -225,7 +232,7 @@
                     <li class="list-group-item">40€/mes</li>
                 </ul>
                 <div class="card-body FondoPlanes">
-                    <a href="#" class="btn btn-primary BotonPlanes" id="BotonPlan4">Me interesa</a>
+                    <a href="#Planes" class="btn btn-primary BotonPlanes" id="BotonPlan4">Me interesa</a>
                 </div>
             </div>
         </div>
@@ -233,24 +240,24 @@
 
     <!-- Pie de Página -->
 
-    <footer>
+    <footer id="Footer">
         <div class="row">
             <div id="RedesSociales" class="text-center col-lg-6 col-md-6 col-sm-12">
                 <p class="TextoRRSS">Ponte en contacto con nosotros:</p>
-                <a href="https://twitter.com/Gimnasiosbahia" class="iconoredes"><i
-                        class="fa-brands fa-twitter fa-xl"></i></a>
-                <a href="https://www.facebook.com/gym.bahia/?locale=es_ES" class="iconoredes"> <i
-                        class="fa-brands fa-facebook-f fa-xl"></i></a>
-                <a href="https://www.instagram.com/gimnasiobahiapuertodelacruz/?hl=es" class="iconoredes"> <i
-                        class="fa-brands fa-instagram fa-xl"></i></a>
-                <a href="mailto:GimnasioBahía@gmail.com" class="iconoredes"> <i
-                        class="fa-solid fa-envelope fa-xl"></i></a>
+                <a href="https://twitter.com/Gimnasiosbahia"><i
+                        class="fa-brands fa-twitter fa-xl iconoredes"></i></a>
+                <a href="https://www.facebook.com/gym.bahia/?locale=es_ES"> <i
+                        class="fa-brands fa-facebook-f fa-xl iconoredes"></i></a>
+                <a href="https://www.instagram.com/gimnasiobahiapuertodelacruz/?hl=es"> <i
+                        class="fa-brands fa-instagram fa-xl iconoredes"></i></a>
+                <a href="mailto:GimnasioBahía@gmail.com"> <i
+                        class="fa-solid fa-envelope fa-xl iconoredes"></i></a>
             </div>
 
             <div class="text-center col-lg-6 col-md-6 col-sm-12">
                 <p class="TextoRRSS">Si quieres ver el trabajo realizado:</p>
-                <a href="https://github.com/Doramas7/LND-Doramas-UT4" class="iconoredes"><i
-                        class="fa-brands fa-square-github fa-2xl"></i></a>
+                <a href="https://github.com/Doramas7/LND-Doramas-UT4"><i
+                        class="fa-brands fa-square-github fa-2xl iconoredes"></i></a>
             </div>
         </div>
 
