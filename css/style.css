@@ -1,3 +1,4 @@
+/* Navbar */
 header {
     background-color: #2E4F4F;
 }
@@ -47,6 +48,7 @@ header {
     transform: scale(1.10);
 }
 
+/* Apartado Características con cartas */
 #Características {
     padding-top: 6%;
     padding-bottom: 4%;
@@ -90,6 +92,7 @@ header {
     font-family: Ubuntu, sans-serif;
 }
 
+/* Carrusel mostrando las instalaciones */
 #Carrusel {
     background-color: #CBE4DE;
     padding-top: 2%;
@@ -116,6 +119,7 @@ h4 {
     opacity: 80%;
 }
 
+/* Sección del mapa de Google Maps */
 #SectionMapa {
     background-color: #0E8388;
     padding-top: 2%;
@@ -137,6 +141,7 @@ h4 {
     margin: 0 auto;
 }
 
+/* Sección con las cartas de los planes del gimnasio */
 #Planes {
     background-color: #2C3333;
     padding-top: 2%;
@@ -207,6 +212,7 @@ h4 {
     height: 200px;
 }
 
+/* Pie de página con las redes sociales */
 footer {
     background-color: #2E4F4F;
     padding-top: 2%;
