@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Ofertas de la semana</title>
+    <link>https://doramas7.github.io/LND-Doramas-UT4/Index.html</link>
+    <description>Gimnasio número 1 de las islas</description>
+    <item>
+      <title>Novedades</title>
+      <link>https://doramas7.github.io/LND-Doramas-UT4/Index.html</link>
+      <description>Todas las novedades sobre nosotros</description>
+    </item>
+    <item>
+      <title>Suplementación</title>
+      <link>https://doramas7.github.io/LND-Doramas-UT4/Index.html</link>
+      <description>Noticias sobre suplementación</description>
+    </item>
+  </channel>
+
+  <channel>
+    <title>Noticias destacadas</title>
+    <link>https://doramas7.github.io/LND-Doramas-UT4/Index.html</link>
+    <description>Gimnasio número 1 de las islas</description>
+    <item>
+      <title>Novedades</title>
+      <link>https://doramas7.github.io/LND-Doramas-UT4/Index.html</link>
+      <description>Todas las novedades sobre nosotros</description>
+    </item>
+    <item>
+      <title>Suplementación</title>
+      <link>https://doramas7.github.io/LND-Doramas-UT4/Index.html</link>
+      <description>Noticias sobre suplementación</description>
+    </item>
+  </channel>
+</rss>
