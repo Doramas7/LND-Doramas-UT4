@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+  <channel>
+    <title>Noticias destacadas</title>
+    <link>https://doramas7.github.io/LND-Doramas-UT4/Index.html</link>
+    <description>Noticias del momento</description>
+
+    <item>
+      <title>Novedades</title>
+      <link>https://doramas7.github.io/LND-Doramas-UT4/Index.html</link>
+      <description>Todas las novedades</description>
+      <image><img src="Images/LogoGym.jpg"></img></image>
+      <pubDate>Viernes, 21 abril 2023 09:16:00</pubDate>
+    </item>
+
+    <item>
+      <title>Culturismo</title>
+      <link>https://doramas7.github.io/LND-Doramas-UT4/Index.html</link>
+      <description>Noticias sobre el mundo del culturismo</description>
+      <image><img src="Images/DuchasGym.jpg"></img></image>
+      <pubDate>Viernes, 21 abril 2023 09:17:00</pubDate>
+    </item>
+    
+    <item>
+      <title>Actividades</title>
+      <link>https://doramas7.github.io/LND-Doramas-UT4/Index.html</link>
+      <description>Actividades sobre culturismo disponibles</description>
+      <image><img src="Images/PiscinaGym.jpg"></img></image>
+      <pubDate>Viernes, 21 abril 2023 09:21:00</pubDate>
+    </item>
+  </channel>
+</rss>

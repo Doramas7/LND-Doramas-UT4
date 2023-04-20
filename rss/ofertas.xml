@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+  <channel>
+    <title>Ofertas de la semana</title>
+    <link>https://doramas7.github.io/LND-Doramas-UT4/Index.html</link>
+    <description>Ofertas disponibles durante esta semana</description>
+
+    <item>
+      <title>Novedades</title>
+      <link>https://doramas7.github.io/LND-Doramas-UT4/Index.html</link>
+      <description>Novedades recién llegadas</description>
+      <image><img src="Images/LogoGym.jpg"></img></image>
+      <pubDate>Jueves, 20 abril 2023 09:16:00</pubDate>
+    </item>
+
+    <item>
+      <title>Suplementación</title>
+      <link>https://doramas7.github.io/LND-Doramas-UT4/Index.html</link>
+      <description>Artículos de suplementación en oferta</description>
+      <image><img src="Images/SociosGym.jpg"></img></image>
+      <pubDate>Jueves, 20 abril 2023 09:18:00</pubDate>
+    </item>
+    
+    <item>
+      <title>Ropa</title>
+      <link>https://doramas7.github.io/LND-Doramas-UT4/Index.html</link>
+      <description>Ropa y accesorios en oferta</description>
+      <image><img src="Images/InstalacionesGym.jpg"></img></image>
+      <pubDate>Jueves, 20 abril 2023 09:20:00</pubDate>
+    </item>
+  </channel>
+</rss>
