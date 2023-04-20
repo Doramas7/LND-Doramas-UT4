@@ -5,12 +5,14 @@
     <title>Ofertas de la semana</title>
     <link>https://doramas7.github.io/LND-Doramas-UT4/Index.html</link>
     <description>Ofertas disponibles durante esta semana</description>
+    <category>Ofertas</category>
+    <category>Semanal</category>
 
     <item>
       <title>Novedades</title>
       <link>https://doramas7.github.io/LND-Doramas-UT4/Index.html</link>
       <description>Novedades recién llegadas</description>
-      <image><img src="Images/LogoGym.jpg"></img></image>
+      <enclosure url="https://thumbs.dreamstime.com/b/hombre-con-gimnasia-del-equipo-de-entrenamiento-del-peso-de-la-pesa-de-gimnasia-22842248.jpg" length="78645" type="jpg" />
       <pubDate>Jueves, 20 abril 2023 09:16:00</pubDate>
     </item>
 
@@ -18,7 +20,7 @@
       <title>Suplementación</title>
       <link>https://doramas7.github.io/LND-Doramas-UT4/Index.html</link>
       <description>Artículos de suplementación en oferta</description>
-      <image><img src="Images/SociosGym.jpg"></img></image>
+      <enclosure url="https://guiafitness.com/wp-content/uploads/consejos-principiante-gym.jpg" length="78645" type="jpg" />
       <pubDate>Jueves, 20 abril 2023 09:18:00</pubDate>
     </item>
     
@@ -26,7 +28,7 @@
       <title>Ropa</title>
       <link>https://doramas7.github.io/LND-Doramas-UT4/Index.html</link>
       <description>Ropa y accesorios en oferta</description>
-      <image><img src="Images/InstalacionesGym.jpg"></img></image>
+      <enclosure url="https://img.freepik.com/fotos-premium/pareja-sana-ropa-deportiva-levantamiento-pesas-gimnasio-mujer-atractiva-hombre-guapo-haciendo-ejercicio-pesas-pie-pose-especial-club-deportivo_116317-1345.jpg" length="78645" type="jpg" />
       <pubDate>Jueves, 20 abril 2023 09:20:00</pubDate>
     </item>
   </channel>
